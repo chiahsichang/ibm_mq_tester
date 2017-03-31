@@ -1,0 +1,17 @@
+﻿傳入 WMQ 的佇列名稱[PUSHTEMPLATE.IN.LOCAL.QUEUE]
+
+Json範例:
+{"detail":{"data":[{"para":[{"p7":"","p6":"","p5":"不成功","p4":"106年3月20日","p3":"2354  ","p2":"鴻準","p1":"","p10":"","inboxTitle":"<公開收購結果>-鴻準  (2354)","p9":"","p8":""},{"p7":"","p6":"","p5":"成功","p4":"106年3月20日","p3":"2834  ","p2":"臺企銀","p1":"","p10":"","inboxTitle":"<公開收購結果>-臺企銀  (2834)","p9":"","p8":""}]}]},"basic":{"dxid":"26857f92-2bd7-4ba9-9a1a-3a3917359dd8","category":"市場訊息","pushDate":"20170321070000","templateID":"00000007","isGroupPush":"Y","APPID":"322b6f8c-e8fc-41e6-8e6e-1f50e24185e5","JobDate":"20170330100000","pushTitle":"<公開收購結果通知> "}}
+
+
+傳入 WMQ 的佇列名稱[PUSHGROUP.IN.LOCAL.QUEUE]
+
+Json範例:
+{"detail":{"data":[{"info":[{"inboxTitle":"您有東元股票即將於106年5月9日召開股東會","url":"https://epassbooksys-t.tdcc.com.tw/StockQry/GetStock.jsp?type=1&stock_type=00&stock_no=1504&no=1504120170311"},{"inboxTitle":"您有英業達股票即將於106年4月11日召開股東會","url":"https://epassbooksys-t.tdcc.com.tw/StockQry/GetStock.jsp?type=1&stock_type=00&stock_no=2356&no=2356220170313"}]}]},"basic":{"dxid":"26857f92-2bd7-4ba9-9a1a-3a3917359dd8","category":"股務訊息","pushDate":"20170311070000","isGroupPush":"Y","APPID":"322b6f8c-e8fc-41e6-8e6e-1f50e24185e5","JobDate":"20170310190000","pushTitle":"<召開股東會通知>","taskID":"S001"}}
+
+
+
+傳入 WMQ 的佇列名稱[PUSHSEND.IN.LOCAL.QUEUE]
+
+Json範例:
+{"appId":"MPSBKAPP","personalProperty":"存摺訊息","type":"98120274481","dxid":"","title":"證券商合併（帳號：98120274481）","content":"[證券商合併] 您往來證券商元大台中（帳號：98120274481）已被合併至犇亞（帳號：60100000696），被合併帳戶將於次日註銷。","time":"20170316084912","JobDate":"20170316090000"}
